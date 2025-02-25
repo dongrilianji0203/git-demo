@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>美食天地</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ff6f61;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .menu-item {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .menu-item:hover {
+            transform: translateY(-10px);
+        }
+        .menu-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .menu-item h3 {
+            margin: 15px 0 10px;
+            color: #333;
+        }
+        .menu-item p {
+            color: #666;
+            padding: 0 15px 15px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>美食天地</h1>
+        <p>探索世界美味，尽在这里！</p >
+    </header>
+
+    <div class="container">
+        <div class="menu">
+            <div class="menu-item">
+                < img src="https://via.placeholder.com/300x200" alt="菜品1">
+                <h3>意大利披萨</h3>
+                <p>经典的意大利风味披萨，搭配新鲜番茄和香浓芝士。</p >
+            </div>
+            <div class="menu-item">
+                < img src="https://via.placeholder.com/300x200" alt="菜品2">
+                <h3>日式寿司</h3>
+                <p>新鲜的刺身与米饭完美结合，口感细腻。</p >
+            </div>
+            <div class="menu-item">
+                < img src="https://via.placeholder.com/300x200" alt="菜品3">
+                <h3>法式牛排</h3>
+                <p>精选优质牛肉，搭配黑胡椒酱汁，香气四溢。</p >
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 美食天地. 版权所有.</p >
+    </footer>
+</body>
+</html>
